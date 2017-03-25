@@ -15,7 +15,7 @@ elif "$os" | grep -iq "darwin"; then
     # TODO
 fi
 
-git clone https://github.com/aykamko/dotfiles ~/dotfiles
+git clone https://github.com/lupa1208/dotfiles ~/dotfiles
 pushd ~/dotfiles
 ./install
 popd
