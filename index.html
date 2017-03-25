@@ -49,40 +49,308 @@
 		<section id="intro" class="intro"> 
 		<div class="container"> 
 			<div class="portrait-div"> 
-				<img class="portrait" src="{% base64 static/img/portrait.jpg %}"> 
+				<img class="portrait" src="static/img/portrait.jpg"> 
 			</div> 
 			<div class="blurb"> 
 				<h1>Hi!</h1> 
 				<h3>I'm Lukas Paulun.</h3> 
 			</div> 
 		</div> 
-		</section> <section id="about" class="about"> 
-    <div class="section"> 
-      <div class="container"> 
-        <div class="blurb">I'm a student and developer living in Auckland.</div> </div> </div> 
-    <div class="console-section"> 
-      <div class="console"> 
-        <span class="gp">>>></span> 
-        <span class="kn">require</span> '<span class="nn">aboutme</span>'; 
-        <br/><br/> 
-        <span class='gp'>>>></span> resume
-        <br>
-        ['<span class='s'><a href="alekskamko_resume.pdf">pdf</a></span>', '<span class='s'><a href="alekskamko_resume.txt">plaintext</a></span>']
-        <br><br>
-        <span class='gp'>>>></span> email
-        <br>
-        '<span class='s'><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#108;&#101;&#107;&#115;&#064;&#097;&#108;&#101;&#107;&#115;&#107;&#097;&#109;&#107;&#111;&#046;&#099;&#111;&#109;">&#097;&#108;&#101;&#107;&#115;&#064;&#097;&#108;&#101;&#107;&#115;&#107;&#097;&#109;&#107;&#111;&#046;&#099;&#111;&#109;</a></span>'
-        <br><br>
-        <span class='gp'>>>></span> latest_work
-        <br>
-        <div class='indent0'>{</div>
-        <br>
-        <div class='indent1'><span class='nn'>company</span>:&nbsp;</div>'<span class='s'>Stripe</span>',
-        <br>
-        <div class='indent1'><span class='nn'>team</span>:&nbsp;</div>'<span class='s'>Financial Operations Engineering</span>',
-        <br>
-        <div class='indent1'><span class='nn'>term</span>:&nbsp;</div>'<span class='s'>Summer 2016</span>',
-        <br>
-        <div class='indent0'>}</div>
-        <br><br>
-        <span class='gp'>>>></span> education<br>[<div class='indent0'>{</div><br><div class='indent1'><span class='nn'>university</span>:&nbsp;</div>'<span class='s'>UC Berkeley</span>',<br><div class='indent1'><span class='nn'>degree</span>:&nbsp;</div>'<span class='s'>B.S. Electrical Engineering and Computer Science</span>',<br><div class='indent0'>}</div>, {<br><div class='indent1'><span class='nn'>university</span>:&nbsp;</div>'<span class='s'>UC Berkeley</span>',<br><div class='indent1'><span class='nn'>degree</span>:&nbsp;</div>'<span class='s'>M.S. Electrical Engineering and Computer Science</span>',<br><div class='indent1'><span class='nn'>concentration</span>:&nbsp;</div>'<span class='s'>Data Science and Systems</span>',<br><div class='indent1'><span class='nn'>graduation</span>:&nbsp;</div>'<span class='s'>August 2017</span>',<br><div class='indent0'>}</div>]<br><br><span class='gp'>>>></span> interests<br>['<span class='s'>teaching</span>', '<span class='s'>music</span>', '<span class='s'>kimchi</span>', '<span class='s'>biking</span>', '<span class='s'>sick threads</span>', '<span class='s'>pretty websites</span>', '<span class='s'>super smash</span>']<br><br><span class='gp'>>>></span> links<br>['<span class='s'><a href="https://github.com/aykamko">github</a></span>', '<span class='s'><a href="http://www.linkedin.com/in/aykamko">linkedin</a></span>', '<span class='s'><a href="http://fb.me/ayk">facebook</a></span>', '<span class='s'><a href="http://open.spotify.com/user/mrpersonguy">spotify</a></span>']<br> </div> </div> </section> <section id="projects" class="projects"> <div class="container"> <div class="blurb">I like to build things outside of school. Here are some notable projects.</div> <div class="project"> <div class="project-img-div"> <img src="static/img/revolv.jpg"> </div> <div class="table-spacer"></div> <div class="project-desc"> <div class="project-name"> <h1> <a href="https://re-volv.org"> RE-volv.org </a> </h1> <a href="https://github.com/calblueprint/revolv">[repo]</a> </div> <p><p>A Django web app for <a href="http://re-volv.org">RE-volv</a>, a non-profit dedicated to crowd-funded solar energy projects. Developed pro bono with my <a href="http://calblueprint.org">Blueprint</a> teammates, a UC Berkeley student organization that uses technology for social good.</p> </p> </div> </div> <div class="project"> <div class="project-desc"> <div class="project-name"> <h1> <a href="http://alphabeta.alekskamko.com"> αβ Pruning Practice </a> </h1> <a href="https://github.com/aykamko/abTreePractice">[repo]</a> </div> <p><p>A D3.js + Angular web app for visualizing and understanding the Alpha-Beta Pruning algorithm. Generates random trees, giving students unlimited practice problems that they can check against. Proved to be quite helpful for UC Berkeley’s CS61B.</p> </p> </div> <div class="table-spacer"></div> <div class="project-img-div"> <img src="static/img/alphabeta.jpg"> </div> </div> <div class="project"> <div class="project-img-div"> <img src="static/img/resistor_reader.png"> </div> <div class="table-spacer"></div> <div class="project-desc"> <div class="project-name"> <h1> <a href="https://play.google.com/store/apps/details?id=kamkowarrier.collab.resistorreader"> Resistor Reader </a> </h1> <a href="https://github.com/aykamko/ResistorReader">[repo]</a> </div> <p><p>An Android application for working with resistor values. It’s simple, small, and user-friendly. This was my first mobile project, as well as my first Java project. The app is free on the Google Play Store.</p> </p> </div> </div> </div> </section> <section id="resume" class="resume"> <div class="container"> <div class="blurb">Below is an HTML resume. You can also grab a <a href="alekskamko_resume.pdf">pdf</a> or <a href="alekskamko_resume.txt">plaintext</a> version.</div> <div class="resume-section"> <h2 class="section-title">Experience</h2> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Financial Ops Engineering Intern</span><span class="title-right">Summer 2016 (Present)</div> <div class="title-row"><span class="title-left">Stripe</span></div> <ul> <li>Developing for Stripe’s credit card payment authorization, clearing, and settlement systems.</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Identity Team Intern</span><span class="title-right">Summer 2015</div> <div class="title-row"><span class="title-left">Twitch</span></div> <ul> <li>Launched new, secure OpenID authentication portal. Designed and implemented standalone Golang tools for configs and i18n.</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Language Technology Team Intern</span><span class="title-right">Summer 2014</div> <div class="title-row"><span class="title-left">Facebook</span></div> <ul> <li>Analyzed large data sets of out-of-vocabularies (OOVs) in translation requests; developed web interface to flag and eliminate OOVs.</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">TA @ CS162 [Operating Systems] &amp; CS61B [Data Structures]</span><span class="title-right">Fall 2014 - Present</div> <div class="title-row"><span class="title-left">UC Berkeley</span></div> <ul> <li>Currently a TA for Operating Systems and, previously, an intro level course. Teach sections/labs, hold office hours, lead review sessions, develop section and test material.</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Facebook University iOS Intern</span><span class="title-right">Summer 2013</div> <div class="title-row"><span class="title-left">Facebook</span></div> <ul> <li>Worked in team of 3 in building an iOS application. Built two standalone iOS apps and a web app at company-held hackathons.</li> </ul> </div> </div> <div class="resume-section"> <h2 class="section-title">Skills</h2> <div class="resume-subsection"> <div class="title-row"><span class="title-right"></div> <div class="title-row"><span class="title-left">Proficient</span></div> <ul> <li>Python, Ruby, Java, Javascript, bash/zsh, Golang, git, GitHub, vim, Unix, OS X</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-right"></div> <div class="title-row"><span class="title-left">Experience</span></div> <ul> <li>Flask, Django, Rails, C, C++, Objective-C, SQL, mercurial</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-right"></div> <div class="title-row"><span class="title-left">Exposure</span></div> <ul> <li>PHP (Hack), Node.js, Jenkins</li> </ul> </div> </div> <div class="resume-section"> <h2 class="section-title">Education</h2> <div class="resume-subsection"> <div class="title-row"><span class="title-left">B.S. Electrical Engineering and Computer Science</span><span class="title-right">May 2016</div> <div class="title-row"><span class="title-left">University of California, Berkeley</span></div> <ul> <li>Structure and Interpretation of Computer Programs (Python, Scheme)</li> <li>Data Structures and Algorithms (Java)</li> <li>Machine Structures (C, MIPS)</li> <li>Algorithms</li> <li>Operating Systems (C, Java)</li> <li>Compilers (C++, Python)</li> <li>Internet Architecture/Networks (Python)</li> <li>Machine Learning (Golang, Python)</li> <li>AI (Python)</li> <li>Parallel Computers and Algorithms (C, C++, UPC, Python)</li> <li>Computer Security (C, Python)</li> <li>Practical Networking (Android, Python, Bro)</li> </ul> </div> </div> <div class="resume-section"> <h2 class="section-title">Leadership</h2> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Project Leader, Bizworld</span><span class="title-right">Spring 2016</div> <div class="title-row"><span class="title-left"><a href="http://calblueprint.org">Blueprint</a></span></div> <ul> <li>Led a team of 4 developers to design an educator portal for <a href="http://bizworld.org">bizworld.org</a></li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">VP of Tech</span><span class="title-right">Fall 2016</div> <div class="title-row"><span class="title-left"><a href="http://calblueprint.org">Blueprint</a></span></div> <ul> <li>Maintain and develop calblueprint.org and other internal tools. Code review changes to Blueprint projects. Advise project leaders.</li> </ul> </div> <div class="resume-subsection"> <div class="title-row"><span class="title-left">Web Tier Leader</span><span class="title-right">Fall 2014</div> <div class="title-row"><span class="title-left"><a href="http://innovativedesign.club">Innovative Design</a></span></div> <ul> <li>Led a team of 6 developers and designers in improving web sites and brands for on-campus organizations.</li> </ul> </div> </div> <div class="text-center"><a href="alekskamko_resume.pdf">(pdf)</a> <a href="alekskamko_resume.txt">(plaintext)</a></div> </div> </section> </div> <footer> <div class="wrapper"> <div class="table"> <div class="footer-container"> <div class="left"> <div>&copy; 2016 Aleks Kamko</div> <div><a href="https://github.com/aykamko/aykamko.github.io">Repo for this website.</a></div> </div> <div class="right"> <div> <a href="https://github.com/aykamko/">GitHub</a> &middot; <a href="http://www.linkedin.com/in/aykamko">LinkedIn</a> &middot; <a href="mailto:aykamko@gmail.com">Email</a> </div> <div> Credit to <a href="http://kalynnakano.com">Kalyn Nakano</a>. </div> </div> </div> </div> </div> </footer> <script>(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments);},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b);})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-40422523-1","auto");ga("send","pageview");</script> <script type="text/javascript">window.heap=window.heap||[],heap.load=function(h,d){window.heap.appid=h,window.heap.config=d=d||{};var k=d.forceSSL||"https:"===document.location.protocol,b=document.createElement("script");b.type="text/javascript",b.async=!0,b.src=(k?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+h+".js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(b,i);for(var f=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)));};},g=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],j=0;j<g.length;j++){heap[g[j]]=f(g[j]);}};heap.load("1017908225");</script> <script>function _jQueryOnload(){$.extend($.easing,{easeInOutCubic:function(f,g,e,i,h){if((g/=h/2)<1){return i/2*g*g*g+e;}return i/2*((g-=2)*g*g+2)+e;}});var b=$("#nav-toggle")[0];var a=$("html, body");$("a[href*=#]").click(function(){a.animate({scrollTop:$(this.hash).offset().top},750,"easeInOutCubic");b.checked=false;return false;});$("a").attr("target","_blank");}(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="https://code.jquery.com/jquery-2.1.3.min.js";a.onload=_jQueryOnload;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);})();</script> </body> </html>
+		</section> 
+		
+		<section id="about" class="about"> 
+			<div class="section"> 
+				<div class="container"> 
+					<div class="blurb">I'm a student and developer living in Auckland.</div> 
+				</div> 
+			</div> 
+			<div class="console-section"> 
+				<div class="console"> 
+					<span class="gp">>>></span> <span class="kn">require</span> '<span class="nn">aboutme</span>'; 
+				<br/><br/> 
+				<span class='gp'>>>></span> resume
+					<br>
+					['<span class='s'><a href="alekskamko_resume.pdf">pdf</a></span>
+					', '<span class='s'><a href="alekskamko_resume.txt">plaintext</a></span>']
+					<br>
+					<br>
+					<span class='gp'>>>></span> email
+						<br>
+						'<span class='s'><a href="&#109;&#097;&#105;&#108;&#116;&#111;:&#097;&#108;&#101;&#107;&#115;&#064;&#097;&#108;&#101;&#107;&#115;&#107;&#097;&#109;&#107;&#111;&#046;&#099;&#111;&#109;">&#097;&#108;&#101;&#107;&#115;&#064;&#097;&#108;&#101;&#107;&#115;&#107;&#097;&#109;&#107;&#111;&#046;&#099;&#111;&#109;</a></span>'
+						<br><br>
+						<span class='gp'>>>></span> latest_work
+							<br>
+							<div class='indent0'>{</div>
+							<br>
+							<div class='indent1'><span class='nn'>company</span>:&nbsp;</div>'<span class='s'>Stripe</span>',
+				<br>
+				<div class='indent1'><span class='nn'>team</span>:&nbsp;</div>'<span class='s'>Financial Operations Engineering</span>',
+				<br>
+				<div class='indent1'><span class='nn'>term</span>:&nbsp;</div>'<span class='s'>Summer 2016</span>',
+				<br>
+				<div class='indent0'>}</div>
+				<br><br>
+				<span class='gp'>>>></span> 
+				education<br>[<div class='indent0'>{</div><br><div class='indent1'><span class='nn'>
+				university</span>:&nbsp;</div>'<span class='s'>UC Berkeley</span>',<br><div class='indent1'>
+				<span class='nn'>degree</span>:&nbsp;</div>'<span class='s'>B.S. Electrical Engineering and Computer Science</span>',
+				<br>
+				<div class='indent0'>}</div>, 
+				{<br><div class='indent1'><span class='nn'>university</span>
+				:&nbsp;</div>'<span class='s'>UC Berkeley</span>',
+				<br>
+				<div class='indent1'><span class='nn'>
+				degree</span>:&nbsp;</div>'<span class='s'>M.S. Electrical Engineering and Computer Science</span>',
+				<br>
+				<div class='indent1'>
+				<span class='nn'>concentration</span>
+				:&nbsp;</div>'<span class='s'>Data Science and Systems</span>',
+				<br>
+				<div class='indent1'><span class='nn'>graduation</span>:&nbsp;</div>'<span class='s'>August 2017</span>',
+				<br>
+				<div class='indent0'>}</div>]
+				<br><br>
+				<span class='gp'>>>></span> interests<br>['<span class='s'>teaching</span>
+				', '<span class='s'>music</span>
+				', '<span class='s'>kimchi</span>
+				', '<span class='s'>biking</span>
+				', '<span class='s'>sick threads</span>
+				', '<span class='s'>pretty websites</span>
+				', '<span class='s'>super smash</span>']<br><br><span class='gp'>>>></span>
+				links<br>['<span class='s'><a href="https://github.com/aykamko">github</a></span>
+				', '<span class='s'><a href="http://www.linkedin.com/in/aykamko">linkedin</a></span>
+				', '<span class='s'><a href="http://fb.me/ayk">facebook</a></span>
+				', '<span class='s'><a href="http://open.spotify.com/user/mrpersonguy">spotify</a></span>']
+				<br> 
+			</div> 
+			</div> 
+		</section> 
+		
+		<section id="projects" class="projects"> 
+		<div class="container"> 
+			<div class="blurb">I like to build things outside of school. Here are some notable projects.</div> 
+			<div class="project"> 
+				<div class="project-img-div"> 
+					<img src="static/img/revolv.jpg"> 
+				</div> 
+				<div class="table-spacer"></div> 
+				<div class="project-desc"> 
+					<div class="project-name"> 
+						<h1> <a href="https://re-volv.org"> RE-volv.org </a> </h1> 
+						<a href="https://github.com/calblueprint/revolv">[repo]</a> 
+					</div> 
+					<p><p>A Django web app for <a href="http://re-volv.org">RE-volv</a>, a non-profit dedicated to crowd-funded solar energy projects. Developed pro bono with my <a href="http://calblueprint.org">Blueprint</a> teammates, a UC Berkeley student organization that uses technology for social good.</p> </p> 
+				</div> 
+			</div> 
+			<div class="project"> 
+				<div class="project-desc"> 
+					<div class="project-name"> 
+						<h1> <a href="http://alphabeta.alekskamko.com"> αβ Pruning Practice </a> </h1> 
+						<a href="https://github.com/aykamko/abTreePractice">[repo]</a> 
+					</div> 
+					<p><p>A D3.js + Angular web app for visualizing and understanding the Alpha-Beta Pruning algorithm. Generates random trees, giving students unlimited practice problems that they can check against. Proved to be quite helpful for UC Berkeley’s CS61B.</p> </p> 
+				</div> 
+				<div class="table-spacer"></div> 
+				<div class="project-img-div"> 
+					<img src="static/img/alphabeta.jpg"> 
+				</div> 
+			</div> 
+			<div class="project"> 
+				<div class="project-img-div"> 
+					<img src="static/img/resistor_reader.png"> 
+				</div> 
+				<div class="table-spacer"></div> 
+				<div class="project-desc"> 
+					<div class="project-name"> 
+					<h1> <a href="https://play.google.com/store/apps/details?id=kamkowarrier.collab.resistorreader"> Resistor Reader </a> </h1> 
+					<a href="https://github.com/aykamko/ResistorReader">[repo]</a> 
+					</div> 
+					<p><p>An Android application for working with resistor values. It’s simple, small, and user-friendly. This was my first mobile project, as well as my first Java project. The app is free on the Google Play Store.</p> </p> 
+				</div> 
+			</div> 
+		</div> 
+		</section> 
+		
+		<section id="resume" class="resume"> 
+		<div class="container"> 
+			<div class="blurb">Below is an HTML resume. You can also grab a <a href="alekskamko_resume.pdf">pdf</a> or <a href="alekskamko_resume.txt">plaintext</a> version.</div> 
+			<div class="resume-section"> 
+				<h2 class="section-title">Experience</h2> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Financial Ops Engineering Intern</span>
+						<span class="title-right">Summer 2016 (Present)
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Stripe</span>
+					</div> 
+					<ul> <li>Developing for Stripe’s credit card payment authorization, clearing, and settlement systems.</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Identity Team Intern</span>
+						<span class="title-right">Summer 2015
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Twitch</span>
+					</div> 
+					<ul> <li>Launched new, secure OpenID authentication portal. Designed and implemented standalone Golang tools for configs and i18n.</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Language Technology Team Intern</span>
+						<span class="title-right">Summer 2014
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Facebook</span>
+					</div> 
+					<ul> <li>Analyzed large data sets of out-of-vocabularies (OOVs) in translation requests; developed web interface to flag and eliminate OOVs.</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">TA @ CS162 [Operating Systems] &amp; CS61B [Data Structures]</span>
+						<span class="title-right">Fall 2014 - Present
+					</div> 
+					<div class="title-row">
+						<span class="title-left">UC Berkeley</span>
+					</div> 
+					<ul> <li>Currently a TA for Operating Systems and, previously, an intro level course. Teach sections/labs, hold office hours, lead review sessions, develop section and test material.</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Facebook University iOS Intern</span>
+						<span class="title-right">Summer 2013
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Facebook</span>
+					</div> 
+					<ul> <li>Worked in team of 3 in building an iOS application. Built two standalone iOS apps and a web app at company-held hackathons.</li> </ul> 
+				</div> 
+			</div> 
+			<div class="resume-section"> 
+				<h2 class="section-title">Skills</h2> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-right">
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Proficient</span>
+					</div> 
+					<ul> <li>Python, Ruby, Java, Javascript, bash/zsh, Golang, git, GitHub, vim, Unix, OS X</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-right">
+					</div>
+					<div class="title-row">
+						<span class="title-left">Experience</span>
+					</div> 
+					<ul> <li>Flask, Django, Rails, C, C++, Objective-C, SQL, mercurial</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-right">
+					</div> 
+					<div class="title-row">
+						<span class="title-left">Exposure</span>
+					</div> 
+					<ul> <li>PHP (Hack), Node.js, Jenkins</li> </ul> 
+				</div> 
+			</div> 
+			<div class="resume-section"> 
+				<h2 class="section-title">Education</h2> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">B.S. Electrical Engineering and Computer Science</span>
+						<span class="title-right">May 2016
+					</div> 
+					<div class="title-row">
+						<span class="title-left">University of California, Berkeley</span>
+					</div> 
+					<ul> 
+						<li>Structure and Interpretation of Computer Programs (Python, Scheme)</li> 
+						<li>Data Structures and Algorithms (Java)</li> 
+						<li>Machine Structures (C, MIPS)</li> 
+						<li>Algorithms</li> 
+						<li>Operating Systems (C, Java)</li> 
+						<li>Compilers (C++, Python)</li> 
+						<li>Internet Architecture/Networks (Python)</li> 
+						<li>Machine Learning (Golang, Python)</li> 
+						<li>AI (Python)</li> 
+						<li>Parallel Computers and Algorithms (C, C++, UPC, Python)</li> 
+						<li>Computer Security (C, Python)</li> 
+						<li>Practical Networking (Android, Python, Bro)</li> 
+					</ul> 
+				</div> 
+			</div> 
+			<div class="resume-section"> 
+				<h2 class="section-title">Leadership</h2> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Project Leader, Bizworld</span>
+						<span class="title-right">Spring 2016
+					</div> 
+					<div class="title-row">
+						<span class="title-left"><a href="http://calblueprint.org">Blueprint</a></span>
+					</div> 
+					<ul> 
+						<li>Led a team of 4 developers to design an educator portal for <a href="http://bizworld.org">bizworld.org</a></li> 
+					</ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">VP of Tech</span>
+						<span class="title-right">Fall 2016
+					</div> 
+					<div class="title-row">
+						<span class="title-left"><a href="http://calblueprint.org">Blueprint</a></span>
+					</div> 
+					<ul> <li>Maintain and develop calblueprint.org and other internal tools. Code review changes to Blueprint projects. Advise project leaders.</li> </ul> 
+				</div> 
+				<div class="resume-subsection"> 
+					<div class="title-row">
+						<span class="title-left">Web Tier Leader</span>
+						<span class="title-right">Fall 2014
+					</div> 
+					<div class="title-row">
+						<span class="title-left"><a href="http://innovativedesign.club">Innovative Design</a></span>
+					</div> 
+					<ul> <li>Led a team of 6 developers and designers in improving web sites and brands for on-campus organizations.</li> </ul> 
+				</div> 
+			</div> 
+			<div class="text-center">
+				<a href="alekskamko_resume.pdf">(pdf)</a> 
+				<a href="alekskamko_resume.txt">(plaintext)</a>
+			</div> 
+		</div> 
+	</section> 
+
+	</div> 
+	
+	<footer> 
+	<div class="wrapper"> 
+		<div class="table"> 
+			<div class="footer-container"> 
+				<div class="left"> 
+					<div>&copy; 2016 Aleks Kamko</div> 
+					<div><a href="https://github.com/aykamko/aykamko.github.io">Repo for this website.</a></div> 
+				</div> 
+				<div class="right"> 
+					<div> 
+						<a href="https://github.com/aykamko/">GitHub</a> 
+						&middot; <a href="http://www.linkedin.com/in/aykamko">LinkedIn</a> 
+						&middot; <a href="mailto:aykamko@gmail.com">Email</a> 
+					</div> 
+					<div> 
+						Credit to <a href="http://kalynnakano.com">Kalyn Nakano</a>. 
+					</div> 
+				</div> 
+			</div> 
+		</div> 
+	</div> 
+	</footer> 
+	
+	<script>(function(d,e,j,h,f,c,b){d.GoogleAnalyticsObject=f;d[f]=d[f]||function(){(d[f].q=d[f].q||[]).push(arguments);},d[f].l=1*new Date();c=e.createElement(j),b=e.getElementsByTagName(j)[0];c.async=1;c.src=h;b.parentNode.insertBefore(c,b);})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create","UA-40422523-1","auto");ga("send","pageview");</script> <script type="text/javascript">window.heap=window.heap||[],heap.load=function(h,d){window.heap.appid=h,window.heap.config=d=d||{};var k=d.forceSSL||"https:"===document.location.protocol,b=document.createElement("script");b.type="text/javascript",b.async=!0,b.src=(k?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+h+".js";var i=document.getElementsByTagName("script")[0];i.parentNode.insertBefore(b,i);for(var f=function(a){return function(){heap.push([a].concat(Array.prototype.slice.call(arguments,0)));};},g=["clearEventProperties","identify","setEventProperties","track","unsetEventProperty"],j=0;j<g.length;j++){heap[g[j]]=f(g[j]);}};heap.load("1017908225");</script> <script>function _jQueryOnload(){$.extend($.easing,{easeInOutCubic:function(f,g,e,i,h){if((g/=h/2)<1){return i/2*g*g*g+e;}return i/2*((g-=2)*g*g+2)+e;}});var b=$("#nav-toggle")[0];var a=$("html, body");$("a[href*=#]").click(function(){a.animate({scrollTop:$(this.hash).offset().top},750,"easeInOutCubic");b.checked=false;return false;});$("a").attr("target","_blank");}(function(){var a=document.createElement("script");a.type="text/javascript";a.async=true;a.src="https://code.jquery.com/jquery-2.1.3.min.js";a.onload=_jQueryOnload;var b=document.getElementsByTagName("script")[0];b.parentNode.insertBefore(a,b);})();</script> 
+	
+	</body> 
+	</html>
